@@ -12,7 +12,6 @@
         <style>
             /*CSS goes here for now*/
             .myHeader {
-                background-color: rgb(36, 36, 36);
                 color: white;
                 background-color: black;
                 text-align: center;
@@ -23,6 +22,8 @@
             h2 {color: white; background-color: black; text-align: center;}
             p {color: white; text-align: center; font-family: monospace;}
             .boxed{ border:1px solid black}
+            .column{flex: 33.33%; padding: 5px;}
+            .row{display: flex;}
         </style>
     </head>
     
@@ -37,9 +38,17 @@
         <p>In it's current state it is reminiscent of a geocities site due to the nature of pure HTML and CSS.</p>
         
         <!--
-        <p><a href="https://github.com/dylanshaver"><img src="github.png" alt="Github"></a></p>
-        <p><a href="https://stackoverflow.com/users/6712166/dylan-shaver"><img src="stackoverflow.png" alt="Stack overflow"></a></p>
-        <p><a href="https://leetcode.com/idontknowbleh/"><img src="leetcode.png" alt="Leetcode"></a></p>
+        <div class="row">
+            <div class="column">
+                <p2><a href="https://github.com/dylanshaver"><img src="github.png" alt="Github"></a></p2>
+            </div>
+            <div class="column">
+                <p2><a href="https://stackoverflow.com/users/6712166/dylan-shaver"><img src="stackoverflow.png" alt="Stack overflow"></a></p2>
+            </div>
+            <div class="column">
+                <p2><a href="https://leetcode.com/idontknowbleh/"><img src="leetcode.png" alt="Leetcode"></a></p2>
+            </div>    
+        </div>
         -->
 
     </body>
