@@ -7,27 +7,17 @@
         <meta name="author" content="Dylan Shaver">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <base href="https://www.dylansshaver.com" target="_blank">
-        <title>Dylan Shaver</title>
-
-        <style>
-            /*CSS goes here for now*/
-            .myHeader {
-                color: white;
-                background-color: black;
-                text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            body {background-color: rgb(36, 36, 36);}
-            h1 {color: white; background-color: black; text-align: center;}
-            h2 {color: white; background-color: black; text-align: center;}
-            p {color: white; text-align: center; font-family: monospace;}
-            .boxed{ border:1px solid black}
-            .column{flex: 33.33%; padding: 5px;}
-            .row{display: flex;}
-        </style>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Dylan Shaver's Portfolio</title>
     </head>
     
     <body>
+        
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
         
         <div class="myHeader">
             <h1>Dylan Shaver is creating software.</h1>
@@ -35,21 +25,13 @@
         </div>
 
         <p>This page is currently a work in progress as I learn HTML, CSS, and eventually Javascript at my own pace.</p>
-        <p>In it's current state it is reminiscent of a geocities site due to the nature of pure HTML and CSS.</p>
-        
-        <!--
-        <div class="row">
-            <div class="column">
-                <p2><a href="https://github.com/dylanshaver"><img src="github.png" alt="Github"></a></p2>
-            </div>
-            <div class="column">
-                <p2><a href="https://stackoverflow.com/users/6712166/dylan-shaver"><img src="stackoverflow.png" alt="Stack overflow"></a></p2>
-            </div>
-            <div class="column">
-                <p2><a href="https://leetcode.com/idontknowbleh/"><img src="leetcode.png" alt="Leetcode"></a></p2>
-            </div>    
+        <p>In it's current state it is reminiscent of a geocities site due to the nature of pure HTML and CSS.</p2>
+
+        <div class="socials">
+            <p2><a href="https://github.com/dylanshaver"><img src="github.png" alt="Github"></a></p2>
+            <p2><a href="https://stackoverflow.com/users/6712166/dylan-shaver"><img src="stackoverflow.png" alt="Stack overflow"></a></p2>
+            <p2><a href="https://leetcode.com/idontknowbleh/"><img src="leetcode.png" alt="Leetcode"></a></p2>    
         </div>
-        -->
 
     </body>
 </html>
